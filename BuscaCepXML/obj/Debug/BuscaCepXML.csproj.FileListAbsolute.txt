@@ -1,0 +1,14 @@
+C:\Users\vini-\Desktop\exercicios c#\BuscaCepXML\BuscaCepXML\bin\Debug\BuscaCepXML.exe.config
+C:\Users\vini-\Desktop\exercicios c#\BuscaCepXML\BuscaCepXML\bin\Debug\BuscaCepXML.exe
+C:\Users\vini-\Desktop\exercicios c#\BuscaCepXML\BuscaCepXML\bin\Debug\BuscaCepXML.pdb
+C:\Users\vini-\Desktop\exercicios c#\BuscaCepXML\BuscaCepXML\obj\Debug\BuscaCepXML.csprojAssemblyReference.cache
+C:\Users\vini-\Desktop\exercicios c#\BuscaCepXML\BuscaCepXML\obj\Debug\BuscaCepXML.Busca_Cep.resources
+C:\Users\vini-\Desktop\exercicios c#\BuscaCepXML\BuscaCepXML\obj\Debug\BuscaCepXML.Properties.Resources.resources
+C:\Users\vini-\Desktop\exercicios c#\BuscaCepXML\BuscaCepXML\obj\Debug\BuscaCepXML.csproj.GenerateResource.cache
+C:\Users\vini-\Desktop\exercicios c#\BuscaCepXML\BuscaCepXML\obj\Debug\BuscaCepXML.csproj.CoreCompileInputs.cache
+C:\Users\vini-\Desktop\exercicios c#\BuscaCepXML\BuscaCepXML\obj\Debug\BuscaCepXML.exe
+C:\Users\vini-\Desktop\exercicios c#\BuscaCepXML\BuscaCepXML\obj\Debug\BuscaCepXML.pdb
+C:\Users\vini-\Desktop\exercicios c#\BuscaCepXML\BuscaCepXML\bin\Debug\BuscaCepXML.exe.manifest
+C:\Users\vini-\Desktop\exercicios c#\BuscaCepXML\BuscaCepXML\bin\Debug\BuscaCepXML.application
+C:\Users\vini-\Desktop\exercicios c#\BuscaCepXML\BuscaCepXML\obj\Debug\BuscaCepXML.exe.manifest
+C:\Users\vini-\Desktop\exercicios c#\BuscaCepXML\BuscaCepXML\obj\Debug\BuscaCepXML.application

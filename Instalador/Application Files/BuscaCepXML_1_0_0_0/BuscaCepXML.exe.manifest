@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BuscaCepXML.exe" version="1.0.0.0" publicKeyToken="ef3473069f27bd8a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BuscaCepXML" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BuscaCepXML.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto do UAC
+          Para alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó
+          requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Para utilizar a Virtualização de Arquivos e Registro para manter a compatibilidade com versões anteriores,
+         exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BuscaCepXML.exe" size="82416">
+      <assemblyIdentity name="BuscaCepXML" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KImkk7CIJKOkXfMjQtDf6L7H5ImlF0yJWyjD6s6KbYE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BuscaCepXML.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=VINICIUS\Viniicius Lima" issuerKeyHash="efbbe3c4d1ce450ba165526262ef72b8ffadd57a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8YRRDpmexPvneE3Zj4/hAzX3/IQz4LisqeFYQBSxGcc=</DigestValue></Reference></SignedInfo><SignatureValue>ODvCxXOEMz+35W4AQ1GdXQX0HQMpMx54N3tjBS/ymQLII3HUDdk1NmEBHVcQKyhaDiyAA7nzTt7a87f8D8sh6mAWHBfZ0Nqhn6ptSZFmY/9+SSOrm9a8LjgsU2L11t874VdXT/6/cz+IzGnAuQlwp9rxxe53OXrtduYnG/nTcSY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>odq8pRnxy3EZ5D72VgCeWjH7Jd9KzYpZ2bYD1jpIXM+pLNZldKYVNQ+NwWbDyXHsJZXnD4xUK/OY6fvWuhbz8M51r8Qf6ZhqwUL28VFHdVVoXWqnM4yUso3ovWf0yiSNoyD4uoiCS2JGT8TcdAQUe91VgBSqJo9ogHXXG78KC4U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c719b1144058e1a9acb8e03384fcf73503e18f8fd94d78e7fbc49e990e5184f1" Description="" Url=""><as:assemblyIdentity name="BuscaCepXML.exe" version="1.0.0.0" publicKeyToken="ef3473069f27bd8a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=VINICIUS\Viniicius Lima</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qoZxjvB9p6DfWY+vI/geUBcyKKWb9xL8fMEqr+ZKiJI=</DigestValue></Reference></SignedInfo><SignatureValue>OFnqa88Ni0KUYFYVg9FO9OQkv9uJ9glS1jdZzi4toeN7olgK3LwcU7zUxnybirLZNhdbmjLHcnzyRTA/mKaz/wPZ1Ws+OtoGzj25EQ79G7YVaQLeTvk6U1H4vgGRlN+daPnCu+4NCXrfsigXZRENZON8zkuQTFcPhRRBYskhuNU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>odq8pRnxy3EZ5D72VgCeWjH7Jd9KzYpZ2bYD1jpIXM+pLNZldKYVNQ+NwWbDyXHsJZXnD4xUK/OY6fvWuhbz8M51r8Qf6ZhqwUL28VFHdVVoXWqnM4yUso3ovWf0yiSNoyD4uoiCS2JGT8TcdAQUe91VgBSqJo9ogHXXG78KC4U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQH8Xzx0dfn4VGxD/8gK2XZTANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4AVgBJAE4ASQBDAEkAVQBTAFwAVgBpAG4AaQBpAGMAaQB1AHMAIABMAGkAbQBhMB4XDTIxMDIxOTA0MDU1MFoXDTIyMDIxOTEwMDU1MFowOTE3MDUGA1UEAx4uAFYASQBOAEkAQwBJAFUAUwBcAFYAaQBuAGkAaQBjAGkAdQBzACAATABpAG0AYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAodq8pRnxy3EZ5D72VgCeWjH7Jd9KzYpZ2bYD1jpIXM+pLNZldKYVNQ+NwWbDyXHsJZXnD4xUK/OY6fvWuhbz8M51r8Qf6ZhqwUL28VFHdVVoXWqnM4yUso3ovWf0yiSNoyD4uoiCS2JGT8TcdAQUe91VgBSqJo9ogHXXG78KC4UCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAxHsWgD4rN6OA+Xn++ipYlmcg9lPnijVtdkw33RBUXNGnT8zrZTI77i1uKtvpOHj4VrGhGsEATCO6U55EBANQ2MByOzsrSfXqen/CT0apA9Bveykh7JgcOtDAPdDM2gTpFQpUqBLhPcBT8WrJkLz8vUZN30knuAPWdlK6+GY4IRw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
